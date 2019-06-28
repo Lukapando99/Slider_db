@@ -1,0 +1,122 @@
+
+
+h1 {
+	color:#ff7b00;
+	font-family:arial;
+	}
+h2 {
+	color:#ff7b00;
+	font-size:22;
+	font-family:arial;
+}
+
+	
+.btn {
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+    font-family: Courier New;
+	color: #0010fc;
+	font-size: 24px;
+	font-weight:bold;
+	text-align: center;
+	background: #ffffff;
+	padding: 10px 10px ;
+	border: solid #1f628d 2px;
+	text-decoration: none;
+	display: block;
+	margin: 0 auto;
+}
+
+.btn:hover {
+	background: #3cb0fd;
+	background-image: -webkit-linear-gradient(top, #ff3232, #ff7d31);
+	background-image: -moz-linear-gradient(top, #ff3232, #ff7d31);
+	background-image: -ms-linear-gradient(top, #ff3232, #ff7d31);
+	background-image: -o-linear-gradient(top, #ff3232, #ff7d31);
+	background-image: linear-gradient(to bottom, #ff3232, #ff7d31);
+	text-decoration: none;
+}
+
+body {
+	background-color: #595c60;
+}
+
+input[type=number], select {
+	
+	width: 180px;
+	text-align: center;
+	padding: 12px 20px;
+	display: block;
+	margin: 8px auto;			
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	box-sizing: border-box;
+}
+
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+.switch-field {
+	
+	font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
+	padding: 50px auto;
+	overflow: hidden;
+}
+
+.switch-title {
+	margin-bottom: 6px;
+}
+
+.switch-field input {
+    position: absolute !important;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    width: 1px;
+    border: 0 ;
+    overflow: hidden;
+}
+
+/* .switch-field label { */
+  /* float: left; */
+/* } */
+
+.switch-field label {
+	display: inline-block;
+	background-color: #e4e4e4;
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 14px;
+	font-weight: normal;
+	text-align: center;
+	text-shadow: none;
+	padding: 6px 14px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition:    all 0.1s ease-in-out;
+	-ms-transition:     all 0.1s ease-in-out;
+	-o-transition:      all 0.1s ease-in-out;
+	transition:         all 0.1s ease-in-out;
+}
+
+.switch-field label:hover {
+    cursor: pointer;
+}
+
+.switch-field input:checked + label {
+	background-color: #ff7b00;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.switch-field label:first-of-type {
+	border-radius: 4px 4px 4px 4px;
+}
+
+.switch-field label:last-of-type {
+	border-radius: 4px 4px 4px 4px;
+}
+
